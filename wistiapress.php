@@ -13,4 +13,4 @@
 
 require('api/WistiaApi.class.php'); // API Library by stephenreid
 require('settings.php'); // Configuration Options
-
+require('register_shortcodes.php');
