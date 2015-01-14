@@ -39,7 +39,7 @@ function wistiapress_shortcode_media_list($atts) {
 				<th>Video Name</th>
 				<th style="padding-right:10px;padding-left:10px;">Duration</th>
 				<th style="padding-right:10px;padding-left:10px;">File Size</th>
-				<th style="padding-right:10px;padding-left:10px;">Download</th>
+				<th style="padding-right:10px;padding-left:10px;text-align:center;">Right&#8209;Click&nbsp;to Download</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -62,7 +62,7 @@ function wistiapress_shortcode_media_list($atts) {
 	</script>
 
 <?php
-ob_end_flush();
+	return ob_get_clean();
 }
 
 
